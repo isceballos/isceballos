@@ -8,7 +8,8 @@ body {
 }
 
 .my-header {
-    height: 80px;
+    /* height: 80px; */
+    height: auto;
     width: auto;
     display: flex;
     justify-content: space-between;
@@ -60,9 +61,18 @@ body {
     margin: 0;
     padding: 0;
     margin-left: 25px;
+    font-size: 40px;
+    color: white;
+    font-weight: lighter;
+}
+
+.hero h1 span {
+    font-weight: bold;
+    color: #2a1a5e;
 }
 
 .hero-image {
     height: 300px;
     object-fit: cover;
+    margin-top: 10px;
 }
